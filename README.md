@@ -1,37 +1,58 @@
-### Overview
+# 📚 Mini-RAG: Retrieval Augmented Engine
 
-The Retrieval Augmented Engine (RAG) is a powerful tool for document retrieval, summarization, and interactive question-answering. This project utilizes LangChain, Streamlit, and Pinecone to provide a seamless web application for users to perform these tasks. With RAG, you can easily upload multiple PDF documents, generate vector embeddings for text within these documents, and perform conversational interactions with the documents. The chat history is also remembered for a more interactive experience.
+The **Retrieval Augmented Generation (RAG)** engine is a powerful application for document retrieval, summarization, and interactive question-answering. Built with **LangChain**, **Streamlit**, and **Pinecone**, this project offers a seamless web interface to interact with your documents in a conversational manner.
 
+With Mini-RAG, you can upload multiple PDF files, generate vector embeddings, and ask natural language questions. Chat history is preserved, providing a smooth and interactive user experience.
 
-## Features
+---
 
-- **Streamlit Web App**: The project is built using Streamlit, providing an intuitive and interactive web interface for users.
-- **Input Fields**: Users can input essential credentials like OpenAI API key and Pinecone API key through dedicated input fields.
-- **Document Uploader**: Users can upload multiple PDF files, which are then processed for further analysis.
-- **Document Splitting**: The uploaded PDFs are split into smaller text chunks, ensuring compatibility with models with token limits.
-- **Vector Embeddings**: The text chunks are converted into vector embeddings, making it easier to perform retrieval and question-answering tasks.
-- **Flexible Vector Storage**: You can choose to store vector embeddings either in Pinecone or a local vector store, providing flexibility and control.
-- **Interactive Conversations**: Users can engage in interactive conversations with the documents, asking questions and receiving answers. The chat history is preserved for reference.
+## 🚀 Features
 
+- **Streamlit Web App**  
+  Clean, intuitive UI built using Streamlit for seamless interaction.
 
-## Prerequisites
+- **Secure API Key Inputs**  
+  Easily input OpenAI and Pinecone credentials via sidebar or secrets file.
 
-Before running the project, make sure you have the following prerequisites:
+- **Multi-PDF Upload**  
+  Upload and analyze multiple PDF documents simultaneously.
+
+- **Smart Document Chunking**  
+  Splits large documents into manageable text chunks, suitable for model token limits.
+
+- **Vector Embeddings**  
+  Transforms chunks into vector representations for accurate retrieval and Q&A.
+
+- **Flexible Storage Options**  
+  Choose between Pinecone or a local vector store for embedding storage.
+
+- **Conversational Q&A**  
+  Engage in dynamic, context-aware conversations with your documents.
+
+- **Persistent Chat History**  
+  Keeps track of past interactions for a richer user experience.
+
+---
+
+## 🛠️ Prerequisites
+
+Ensure the following are installed/configured before running the app:
 
 - Python 3.7+
-- LangChain
-- Streamlit
-- Pinecone
-- An OpenAI API key
-- PDF documents to upload
+- [LangChain](https://python.langchain.com/)
+- [Streamlit](https://streamlit.io/)
+- [Pinecone](https://www.pinecone.io/)
+- OpenAI API key
+- PDF documents to analyze
 
-## Usage
+---
 
-1. Clone the repository to your local machine:
+## 📦 Installation & Usage
 
+1. **Clone the repository**
    ```bash
    git clone https://github.com/Ynothari/Mini-RAG.git
-   ```
+   cd Mini-RAG
 
 2. Install the required dependencies by running:
    ```bash
@@ -43,25 +64,35 @@ Before running the project, make sure you have the following prerequisites:
    streamlit run src/rag_engine.py
    ```
 
-4. Access the app by opening a web browser and navigating to the provided URL.
+4. **Open the App**  
+   Launch the app in your browser by navigating to the local URL displayed in the terminal after running the Streamlit command.
 
-5. Input your OpenAI API key, Pinecone API key, Pinecone environment, and Pinecone index name in the respective fields. You can provide them either in the sidebar of the application or place them in the **secrets.toml** file in the [.streamlit directory](src/.streamlit)
+5. **Provide Your Credentials**  
+   Enter the following in the sidebar:
+   - **OpenAI API Key**
+   - **Pinecone API Key**
+   - **Pinecone Environment**
+   - **Pinecone Index Name**  
+   
+   Alternatively, you can store these in a `.streamlit/secrets.toml` file for convenience and security.
 
-6. Upload the PDF documents you want to analyze.
+6. **Upload PDF Documents**  
+   Use the built-in uploader to select and upload one or more PDF files for analysis.
 
-7. Click the "Submit Documents" button to process the documents and generate vector embeddings.
+7. **Process Documents**  
+   Click the **"Submit Documents"** button to split the PDFs, generate vector embeddings, and store them accordingly.
 
-8. Engage in interactive conversations with the documents by typing your questions in the chat input box.
+8. **Start Chatting!**  
+   Ask questions in natural language and receive contextual answers powered by the embedded document data. The chat remembers your history for a better experience.
 
-## Contributors
+---
 
-[Mir Abdullah Yaser](https://github.com/mirabdullahyaser)
+## 📬 Contact
 
-## Contact
+Have questions, suggestions, or want to collaborate? Feel free to reach out!
 
-If you have any questions, suggestions, or would like to discuss this project further, feel free to get in touch with me:
-
-- [Email](mailto:awmhari007@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/ynothari/)
+- 📧 [Email](mailto:awmhari007@gmail.com)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/ynothari/)
 
 I'm open to collaboration and would be happy to connect!
+
