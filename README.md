@@ -1,4 +1,4 @@
-## Overview
+### Overview
 
 The Retrieval Augmented Engine (RAG) is a powerful tool for document retrieval, summarization, and interactive question-answering. This project utilizes LangChain, Streamlit, and Pinecone to provide a seamless web application for users to perform these tasks. With RAG, you can easily upload multiple PDF documents, generate vector embeddings for text within these documents, and perform conversational interactions with the documents. The chat history is also remembered for a more interactive experience.
 
@@ -30,8 +30,7 @@ Before running the project, make sure you have the following prerequisites:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/mirabdullahyaser/Retrieval-Augmented-Generation-Engine-with-LangChain-and-Streamlit.git
-   cd Retrieval-Augmented-Generation-Engine-with-LangChain-and-Streamlit
+   git clone https://github.com/Ynothari/Mini-RAG.git
    ```
 
 2. Install the required dependencies by running:
