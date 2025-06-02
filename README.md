@@ -1,9 +1,3 @@
-# Retrieval Augmented Generation Engine using LangChain, Streamlit, & Pinecone
-
-[Access application on Streamlit Cloud Platform](https://retrieval-augmented-generation.streamlit.app/)
-
-![Demo](data/demo.gif)
-
 ## Overview
 
 The Retrieval Augmented Engine (RAG) is a powerful tool for document retrieval, summarization, and interactive question-answering. This project utilizes LangChain, Streamlit, and Pinecone to provide a seamless web application for users to perform these tasks. With RAG, you can easily upload multiple PDF documents, generate vector embeddings for text within these documents, and perform conversational interactions with the documents. The chat history is also remembered for a more interactive experience.
@@ -68,7 +62,7 @@ Before running the project, make sure you have the following prerequisites:
 
 If you have any questions, suggestions, or would like to discuss this project further, feel free to get in touch with me:
 
-- [Email](mailto:mirabdullahyaser@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/mir-abdullah-yaser/)
+- [Email](mailto:awmhari007@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/ynothari/)
 
 I'm open to collaboration and would be happy to connect!
